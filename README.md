@@ -48,6 +48,8 @@ python train_dreambooth.py \
     --mixed_precision="fp16" \
     --use_8bit_adam
 
+```
+
 ### 2. Deploying Fine-tuned Model for image infercing
 
 
