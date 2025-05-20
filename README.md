@@ -83,6 +83,9 @@ Generate event-based neuromorphic streams [V2E](https://github.com/SensorsINI/v2
 └── README.md
 ```
 
+⚖️ Ethical Considerations
+This project is intended for research and educational purposes. Users must comply with all applicable laws and ethical guidelines. The generation of non-consensual, underage, or otherwise illegal content is strictly prohibited. By using this repository, you agree to use the tools responsibly and ethically.
+
 ---
 
 ## 📜 License & Dataset Access
