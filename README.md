@@ -87,7 +87,7 @@ Generate event-based neuromorphic streams [V2E](https://github.com/SensorsINI/v2
 
 ## 📜 License & Dataset Access
 
-This project follows an **open-source license** and includes privacy-conscious, non-identifiable synthetic data. For academic and research use only. If you'd like access to the full dataset, please fill out our [dataset access form](#).
+This project follows an **open-source license** and includes privacy-conscious, and further adhere to GDPR. For academic and research use only. If you'd like access to the full dataset, please fill out our [dataset access form](https://docs.google.com/forms/d/e/1FAIpQLSfxXL8bJWhwv0B-FMIJd7m6meQ5Lx7i5zmvmd7BxOpnfmiihg/viewform).
 
 ---
 
