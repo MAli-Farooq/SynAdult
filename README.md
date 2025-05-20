@@ -1,6 +1,6 @@
 # 🧠 SynAdult: : Multimodal Synthetic Adult Dataset Generation
 
-**SynAdult** is an open-source project that leverages state-of-the-art diffusion models to generate high-quality adult facial data from text prompts. It is a synthetic data generation framework focused on photorealistic adult face synthesis across age groups and ethnicities using fine-tuned Stable Diffusion XL (SDXL) models. This repository supports downstream applications like expression classification, face recognition, and animation synthesis via a multimodal pipeline. It also integrates the **LivePortrait** retargeting pipeline to animate static images with realistic facial expressions and head pose dynamics.
+**SynAdult** is an open-source project that leverages state-of-the-art diffusion models to generate high-quality adult facial data from text-to-image diffusion models. It is a synthetic data generation framework focused on photorealistic adult face synthesis across age groups and ethnicities using fine-tuned Stable Diffusion XL (SDXL) models. This repository supports downstream applications like expression classification, face recognition, and animation synthesis via a multimodal pipeline. It also integrates the **LivePortrait** retargeting pipeline to animate static images with realistic facial expressions and head pose dynamics.
 
 ---
 
