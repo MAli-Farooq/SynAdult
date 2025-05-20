@@ -1,19 +1,16 @@
-# SynAdult
-It is an open-source project that leverages state-of-the-art diffusion models to generate high-quality adult-themed imagery from text prompts. Designed for researchers, and developers, this repository aims to explore the capabilities of generative AI in producing hyper realsitic senior adult facial data within a framework that emphasizes ethical considerations and responsible use.
+# 🧠 SynAdult: : Multimodal Synthetic Adult Dataset Generation
 
-# 🧠 AdultDiffusion: Multimodal Synthetic Adult Dataset Generation
-
-**AdultDiffusion** is a synthetic data generation framework focused on photorealistic adult face synthesis across age groups and ethnicities using fine-tuned Stable Diffusion XL (SDXL) models. This repository supports downstream applications like expression classification, face recognition, and animation synthesis via a multimodal pipeline. It also integrates the **LivePortrait** retargeting pipeline to animate static images with realistic facial expressions and head pose dynamics.
+**SynAdult** is an open-source project that leverages state-of-the-art diffusion models to generate high-quality adult facial data from text prompts. It is a synthetic data generation framework focused on photorealistic adult face synthesis across age groups and ethnicities using fine-tuned Stable Diffusion XL (SDXL) models. This repository supports downstream applications like expression classification, face recognition, and animation synthesis via a multimodal pipeline. It also integrates the **LivePortrait** retargeting pipeline to animate static images with realistic facial expressions and head pose dynamics.
 
 ---
 
 ## 🚀 Features
 
 - ✨ **High-Fidelity Adult Face Synthesis** using SDXL + DreamBooth.
-- 🏷️ Covers multiple **age groups**, **genders**, and **ethnicities** (Asian, African, Caucasian).
+- 🏷️ Covers multiple **age groups**, **genders**, and **ethnicities** (Asian, African, White).
 - 🎭 Integrated **video retargeting pipeline** using [LivePortrait](https://liveportrait.github.io/) for facial expression & head pose animation.
 - 📊 Compatible with downstream tasks like face classification and expression recognition.
-- 🎥 Optional generation of neuromorphic event streams (V2E simulator).
+- 🎥 Generation of neuromorphic event streams (V2E simulator).
 - 📡 Outputs include **RGB**, **video**, **event**, and **3D morph** modalities.
 
 ---
