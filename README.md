@@ -83,7 +83,7 @@ Generate event-based neuromorphic streams [V2E](https://github.com/SensorsINI/v2
 └── README.md
 ```
 
-⚖️ Ethical Considerations
+## ⚖️ Ethical Considerations
 This project is intended for research and educational purposes. Users must comply with all applicable laws and ethical guidelines. The generation of non-consensual, underage, or otherwise illegal content is strictly prohibited. By using this repository, you agree to use the tools responsibly and ethically.
 
 ---
@@ -99,7 +99,7 @@ This project follows an **open-source license** and includes privacy-conscious, 
 If you use this work, please cite:
 
 ```bibtex
-@misc{adultdiff2025,
+@misc{SynAdult2025,
   title={SynAdult: Multimodal Synthetic Adult Face Dataset using Diffusion and Retargeting},
   author={Your Name et al.},
   year={2025},
