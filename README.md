@@ -48,7 +48,8 @@ python train_dreambooth.py \
     --mixed_precision="fp16" \
     --use_8bit_adam
 
-For Inference
+### 2. Deploying Fine-tuned Model for image infercing
+
 
 ```bash
 python generate.py \
@@ -58,12 +59,12 @@ python generate.py \
     --guidance_scale=7.5
 ```
 
-### 2. LivePortrait for Video Retargeting
+### 3. LivePortrait for Video Retargeting
 We adapt the [LivePortrait](https://liveportrait.github.io/) pipeline for facial motion synthesis, enabling:
 - Retargeted lip-sync and head motion.
 - Video rendering of static SD-generated images.
 
-### 3. Optional: V2E (Video-to-Event) Conversion
+### 4. RGB to Event: V2E (Video-to-Event) Conversion
 Generate event-based neuromorphic streams to simulate privacy-preserving modalities for surveillance, driving, or health applications.
 
 ---
