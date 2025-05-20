@@ -67,7 +67,7 @@ We adapt the [LivePortrait](https://liveportrait.github.io/) pipeline for facial
 - Video rendering of static SD-generated images.
 
 ### 4. RGB to Event: V2E (Video-to-Event) Conversion
-Generate event-based neuromorphic streams to simulate privacy-preserving modalities for surveillance, driving, or health applications.
+Generate event-based neuromorphic streams [V2E](https://github.com/SensorsINI/v2e) to simulate privacy-preserving modalities for surveillance, driving, or health applications.
 
 ---
 
