@@ -54,7 +54,7 @@ Generate event-based neuromorphic streams to simulate privacy-preserving modalit
 
 ## 📜 License & Dataset Access
 
-This project follows an **open-source license** and includes privacy-conscious, non-identifiable synthetic data. For academic use only. If you'd like access to the full dataset, please fill out our [dataset access form](#).
+This project follows an **open-source license** and includes privacy-conscious, non-identifiable synthetic data. For academic and research use only. If you'd like access to the full dataset, please fill out our [dataset access form](#).
 
 ---
 
