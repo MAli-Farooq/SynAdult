@@ -50,7 +50,7 @@ python train_dreambooth.py \
 
 ```
 
-### 2. Deploying Fine-tuned Model for image infercing
+### 2. Deploying Fine-tuned Model for Image Inference
 
 
 ```bash
