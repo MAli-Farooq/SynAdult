@@ -48,9 +48,11 @@ python train_dreambooth.py \
     --mixed_precision="fp16" \
     --use_8bit_adam
 
+For Inference
+
 ```bash
 python generate.py \
-    --model_path=outputs/your_subject_model \
+    --model_path=outputs/SynAdult.safetensors\
     --prompt="Senior white adult male person with full face in frame and beard, Frontal Pose, Unique face with distinct facial features" \
     --num_inference_steps=50 \
     --guidance_scale=7.5
