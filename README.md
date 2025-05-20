@@ -64,7 +64,7 @@ If you use this work, please cite:
 
 ```bibtex
 @misc{adultdiff2025,
-  title={AdultDiffusion: Multimodal Synthetic Adult Face Dataset using Diffusion and Retargeting},
+  title={SynAdult: Multimodal Synthetic Adult Face Dataset using Diffusion and Retargeting},
   author={Your Name et al.},
   year={2025},
   howpublished={\url{https://github.com/your-repo/adultdiffusion}},
