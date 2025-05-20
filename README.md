@@ -20,6 +20,34 @@
 ### 1. SDXL DreamBooth Fine-Tuning
 We fine-tune SDXL using DreamBooth to learn subject-identity tokens for specific adult appearances.
 
+Steps
+Prepare Training Images using FFHQ, UTK and Age DB datasets
+
+Collect and process high-quality images of the subject.
+
+Ensure images are square-cropped and focus on the subject.
+
+Place images in a new directory under data/2d_frames.
+GitHub
+
+Initiate Fine-Tuning
+
+```bash
+python train_dreambooth.py \
+    --pretrained_model_name_or_path=models/sdxl \
+    --instance_data_dir=data/your_subject \
+    --output_dir=outputs/your_subject_model \
+    --instance_prompt="a photo of your_subject" \
+    --resolution=1024 \
+    --train_batch_size=1 \
+    --gradient_accumulation_steps=1 \
+    --learning_rate=5e-6 \
+    --lr_scheduler="constant" \
+    --lr_warmup_steps=0 \
+    --max_train_steps=800 \
+    --mixed_precision="fp16" \
+    --use_8bit_adam
+
 ```bash
 python generate.py \
     --model_path=outputs/your_subject_model \
